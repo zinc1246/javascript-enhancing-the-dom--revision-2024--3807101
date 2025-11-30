@@ -8,15 +8,16 @@ console.log(actbtn);
 infoList = getElementbyClass('info');
 for (let i = 0; i < infoList.length; i++)
 {
-  console.log(infoList[i]
+  console.log(infoList[i];
 }
 // Challenge 3: Select elements by tag and print all of them to the console
 // TODO: Select all <p> elements and print each one
-tagElement = getElementsByTag('p')
+tagElement = getElementsByTag('p');
 for (let i = 0; i < tagElement.length; i++)
 {
-  console.log(tagElement[i])
+  console.log(tagElement[i]);
 }
 // Challenge 4: Select elements with a combination of tag name and class name, and print them
 // TODO: Select all elements that are <span> with class 'highlight' and print each one
-
+let highlightSpan = querySelector("span.highlight");
+highlightSpan.forEach(span => console.log(span));

@@ -1,8 +1,15 @@
 // Challenge 1: Select an element by ID and print it to the console
 // TODO: Select the element with id 'actionButton' and print it
+actbtn = getElementById(actionButton);
+console.log(actbtn);
 
 // Challenge 2: Select all elements with a certain class and print all of them to the console
 // TODO: Select all elements with class 'info' and print each one
+infoList = getElementbyClass(info);
+for (i = 0; i < infoList.index; i++)
+{
+  console.log(infoList[i]
+              }
 
 // Challenge 3: Select elements by tag and print all of them to the console
 // TODO: Select all <p> elements and print each one
